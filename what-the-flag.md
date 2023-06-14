@@ -7,7 +7,7 @@ leading us to investigate the source-code.
 We found the comment
 `<!-- TODO prevent google from leaking our source code -->` in the
 source code. Well, how can you prevent Google (or web crawlers in
-general) from crwaling your webpage? Using the `/robots.txt`!
+general) from crawling your webpage? Using the `/robots.txt`!
 
 The `robots.txt` file contains the string
 `User-agent: * Disallow: /source`. Soo the next step was obviously to
